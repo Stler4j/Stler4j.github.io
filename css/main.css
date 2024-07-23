@@ -6791,6 +6791,13 @@ a[data-fancybox] {
   margin-right: 1rem;
   border-radius: 8px;
 }
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c3c0c1;
+  border-radius: 999px;
+}
 :root {
   --width-main: 960px;
 }
