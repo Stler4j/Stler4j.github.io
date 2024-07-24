@@ -6801,6 +6801,12 @@ a[data-fancybox] {
 :root {
   --width-main: 960px;
 }
+.l_body[layout="post"] .l_left {
+  opacity: 0;
+}
+.l_body[layout="post"] .l_left:hover {
+  opacity: 1;
+}
 .l_body[leftbar] .float-panel,
 .l_body[rightbar] .float-panel {
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
