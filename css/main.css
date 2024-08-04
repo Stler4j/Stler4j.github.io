@@ -6799,10 +6799,11 @@ a[data-fancybox] {
   border-radius: 999px;
 }
 :root {
-  --width-main: 960px;
+  --width-main: 1280px;
 }
 .l_body[layout="post"] .l_left {
   opacity: 0;
+  transition: opacity 0.3s ease;
 }
 .l_body[layout="post"] .l_left:hover {
   opacity: 1;
@@ -6812,14 +6813,7 @@ a[data-fancybox] {
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
 }
 .float-panel {
-  border: 1px solid var(--block);
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-}
-.float-panel button:not(:last-child) {
-  border-bottom: 1px solid var(--block);
-}
-.float-panel button:hover {
-  background-color: var(--block);
 }
 a:not([class]) {
   transition: none !important;
