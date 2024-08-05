@@ -6799,7 +6799,7 @@ a[data-fancybox] {
   border-radius: 999px;
 }
 :root {
-  --width-main: 820px;
+  --width-main: 950px;
 }
 .l_body[layout="post"] .l_left {
   opacity: 0;
